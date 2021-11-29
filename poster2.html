@@ -1,0 +1,474 @@
+<!DOCTYPE html5>
+<head>
+    <title>Day 3 | Poster 2</title>
+    <!-- <link rel=""> -->
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            width: 1240px;
+            height: 1754px;
+        }
+
+        div#container {
+            width: 1240px;
+            height: 1754px;
+            background-color: pink;
+        }
+
+        div#topRightLine {
+            width: 110px;
+            height: 10px;
+            background-color: white;
+            position: absolute;
+            top: 135px;
+            left: 1050px;
+        }
+
+        div#cubeMuseum {
+            width: 160;
+            height: 64px;
+            /* background-color: darkcyan; */
+            position: absolute;
+            top: 135px;
+            left: 920px;
+        }
+
+        .cmText {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            font-weight: bolder;
+            color: white;
+        }
+
+        div#cubeOne {
+            width: 25px;
+            height: 25px;
+            background-color: white;
+            position: absolute;
+            top: 135px;
+            left: 865px;
+        }
+
+        div#cubeTwo {
+            width: 25px;
+            height: 25px;
+            background-color: white;
+            position: absolute;
+            top: 170px;
+            left: 865px;
+        }
+
+        div#cubeThree {
+            width: 25px;
+            height: 25px;
+            background-color: white;
+            position: absolute;
+            top: 135px;
+            left: 830px;
+        }
+
+        div#topVertLine {
+            width: 10px;
+            height: 237px;
+            background-color: white;
+            position: absolute;
+            top: 0px;
+            left: 100px;
+        }
+
+        div#topLeftDate {
+            width: 150px;
+            height: 125px;
+        }
+
+        div#topLeftDate {
+            width: 160px;
+            height: 100px;
+            /* background-color: black; */
+            position: absolute;
+            top: 151px;
+            left: 120px;
+        }
+
+        .year {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 19px;
+            font-weight: bold;
+            color: white;
+            position: absolute;
+            top: 0px;
+            left: 75px;
+        }
+
+        .SEP {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            font-weight: lighter;
+            color: white;
+            position: absolute;
+            top: 10px;
+            left: 0px;
+        }
+
+        .dateDay {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            font-weight: bolder;
+            color: white;
+            position: absolute;
+            top: 40px;
+            left: 0px;
+        }
+
+        div#midLineTopRight {
+            width: 790px;
+            height: 10px;
+            background-color: white;
+            position: absolute;
+            top: 380px;
+            right: 340px;
+            z-index: 0;
+        }
+
+        div#midLineBotLeft {
+            width: 790px;
+            height: 10px;
+            background-color: white;
+            position: absolute;
+            top: 1250px;
+            left: 100px;
+            z-index: 1;
+        }
+
+        div#textSur {
+            width: 530px;
+            height: 225px;
+            /* background-color: green; */
+            position: absolute;
+            top: 390px;
+            left: 115px;
+            z-index: 3;
+        }
+
+        .textSur {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:250px;
+            font-weight: bolder;
+            color: white;
+        }
+
+        div#shoesImage {
+            width: 545px;
+            height: 350px;
+            /* background-color: greenyellow; */
+            position: absolute;
+            top: 365px;
+            left: 490px;
+            z-index: 2;
+        }
+
+        .shoes {
+            width: 570px;
+            height: 360px;
+        }
+
+        div#moon {
+            width: 399px;
+            height: 373px;
+            position: absolute;
+            top: 660px;
+            left: 255px;
+        }
+
+        .moon {
+            width: 359px;
+            height: 336px;
+        }
+
+        div#textReal {
+            width: 410px;
+            height: 200px;
+            /* background-color: green; */
+            position: absolute;
+            top: 730px;
+            left: 630px;
+            z-index: 4;
+        }
+
+        .textReal {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 150px;
+            font-weight: bolder;
+            color: white;
+        }
+
+        div#textIsm {
+            width: 530px;
+            height: 225px;
+            /* background-color: green; */
+            position: absolute;
+            top: 980px;
+            left: 115px;
+            z-index: 0;
+        }
+
+        .textIsm {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:250px;
+            font-weight: bolder;
+            color: white;
+        }
+
+        div#pineapple {
+            width: 500px;
+            height: 450px;
+            /* background-color: greenyellow; */
+            position: absolute;
+            top: 780px;
+            left: 475px;
+            z-index: 5;
+        }
+
+        .pineapple {
+            height: 580px;
+            width: 575px;
+        }
+
+        div#botLeftLine {
+            width: 50px;
+            height: 10px;
+            background-color: white;
+            position: absolute;
+            top: 1465px;
+            left: 100px;
+        }
+
+        div#freeEventEntry {
+            width: 200px;
+            height: 60px;
+            /* background-color: black; */
+            position: absolute;
+            top: 1485px;
+            left: 100px;
+        }
+
+        .freeEventEntry {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+        }
+
+        div#nameList {
+            width: 570px;
+            height: 405px;
+            /* background-color: black; */
+            position: absolute;
+            top: 1350px;
+            left: 670px;
+        }
+
+        div#topLineShort {
+            width: 120px;
+            height: 10px;
+            background-color: white;
+            position: absolute;
+            top: 0px;
+            left: 45px;
+        }
+
+        div#botVertline {
+            width: 10px;
+            height: 300px;
+            background-color: white;
+            position: absolute;
+            top: 105px;
+            left: 0px;
+        }
+
+        div#h3 {
+            width: 200px;
+            height: 30px;
+            /* background-color: red; */
+            position: absolute;
+            top: 20px;
+            left: 45px;
+        }
+
+        .h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            font-weight: bolder;
+            color: white;
+            
+        }
+
+        div#h4 {
+            width: 400px;
+            height: 30px;
+            /* background-color: purple; */
+            position: absolute;
+            top: 57px;
+            left: 45px;
+        }
+
+        .h4 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 22px;
+            font-weight: bolder;
+            color: white;
+        }
+
+        div#michealMind {
+            width: 400px;
+            height: 30px;
+            /* background-color: royalblue; */
+            position: absolute;
+            top: 105px;
+            left: 45px;
+        }
+
+        div#michealPosition {
+            width: 400px;
+            height: 30px;
+            /* background-color: salmon; */
+            position: absolute;
+            top: 136px;
+            left: 45px;
+        }
+
+        .artist {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: lighter;
+            color: white;  
+        }
+
+        div#kellyF {
+            width: 400px;
+            height: 30px;
+            /* background-color: seagreen; */
+            position: absolute;
+            top: 190px;
+            left: 45px;
+        }
+
+        div#kellyPosition {
+            width: 400px;
+            height: 30px;
+            /* background-color: slategray; */
+            position: absolute;
+            top: 220px;
+            left: 45px;
+        }
+
+        div#soilLuna {
+            width: 400px;
+            height: 30px;
+            /* background-color: turquoise; */
+            position: absolute;
+            top: 280px;
+            left: 45px;
+        }
+
+        div#soilPosition {
+            width: 400px;
+            height: 30px;
+            /* background-color: violet; */
+            position: absolute;
+            top: 310px;
+            left: 45px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <img src="images/bg-2.png">
+        <div id="topRightLine">
+
+        </div>
+
+        <div id="cubeMuseum">
+            <p class="cmText">CUBE<br>MUSEUM</p>
+        </div>
+        <div id="cubeOne"></div>
+        <div id="cubeTwo"></div>
+        <div id="cubeThree"></div>
+
+        <div id="topVertLine"></div>
+        <div id="topLeftDate">
+            <p class="year">2017</p>
+            <p class="SEP">SEP</p>
+            <p class="dateDay">15.</p>
+        </div>
+
+        <div id="midLineTopRight"></div>
+        <div id="textSur">
+            <p class="textSur">SUR</p>
+        </div>
+        <div id="shoesImage">
+            <img src="images/shoes.png" class="shoes">
+        </div>
+        <div id="moon">
+            <img src="images/moon.png" class="moon">
+        </div>
+        <div id="textReal">
+            <p class="textReal">REAL</p>
+        </div>
+        <div id="textIsm">
+            <p class="textIsm">ISM</p>
+        </div>
+        <div id="pineapple">
+            <img src="images/pineapple.png" class="pineapple"/>
+        </div>
+        <div id="midLineBotLeft"></div>
+
+        <div id="botLeftLine"></div>
+
+        <div id="freeEventEntry">
+            <p class="freeEventEntry">FREE EVENT<br>ENTRY</p>
+        </div>
+
+        <div id="nameList">
+            <div id="topLineShort"></div>
+            <div id="h3">
+                <p class="h3">EXHIBITION</p>
+            </div>
+
+            <div id="h4">
+                <h4 class="h4">CONTEMPORARY ARTISTS</h4>
+            </div>
+
+            <div id="michealMind">
+                <h4 class="h4">MICHEAL MIND</h4>
+            </div>
+
+            <div id="michealPosition">
+                <p class="artist">ARTIST, SURREAL COMMUNITY</p>
+            </div>
+
+            <div id="kellyF">
+                <h4 class="h4">KELLY F DIOR</h4>
+            </div>
+
+            <div id="kellyPosition">
+                <p class="artist">EXHIBITIONIST</p>
+            </div>
+
+            <div id="soilLuna">
+                <h4 class="h4">SOIL H LUNA</h4>
+            </div>
+
+            <div id="soilPosition">
+                <p class="artist">DESIGNER, CONTEMPORARY ARTIST</p>
+            </div>
+
+            
+           
+            <div id="botVertLine"></div>
+        </div>
+</body>

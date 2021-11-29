@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#container {
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+}
